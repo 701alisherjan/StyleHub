@@ -159,7 +159,7 @@ const allProducts: Product[] = [
 
 
 
-const categories = ['All', 'Kllasik ', 'Moda', 'Model'];
+const categories = ['All', 'Klasik ', 'Moda', 'Model'];
 
 const Products: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
