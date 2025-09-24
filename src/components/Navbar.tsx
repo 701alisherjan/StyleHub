@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { Menu, X, ShoppingCart, Moon, Sun, Shirt } from 'lucide-react';
+import { Menu, X, Moon, Sun, Shirt } from 'lucide-react';
 import { RootState } from '../store/store';
 import { toggleDarkMode } from '../store/languageSlice';
 import { translations } from '../utils/translations';
@@ -87,7 +87,6 @@ const Navbar: React.FC = () => {
                 ? 'text-gray-300 hover:text-white hover:bg-gray-800' 
                 : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
             }`}>
-              <ShoppingCart className="w-6 h-6" />
               {cart.items.length > 0 && (
                 <span className="absolute -top-1 -right-1 bg-pink-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
                   {cart.items.length}
