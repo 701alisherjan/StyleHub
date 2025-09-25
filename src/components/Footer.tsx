@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Shirt, Mail, Phone, MapPin, Instagram, MessageCircle } from 'lucide-react';
+import { Shirt, Mail, Phone, MapPin, } from 'lucide-react';
 import { RootState } from '../store/store';
 import { translations } from '../utils/translations';
 
@@ -30,26 +30,8 @@ const Footer: React.FC = () => {
               {t.footerDescription}
             </p>
             <div className="flex space-x-4">
-              <a
-                href="#"
-                className={`p-2 rounded-lg transition-colors ${
-                  darkMode 
-                    ? 'bg-gray-800 hover:bg-pink-600 text-gray-300 hover:text-white' 
-                    : 'bg-white hover:bg-pink-600 text-gray-600 hover:text-white'
-                } border ${darkMode ? 'border-gray-700' : 'border-gray-200'}`}
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className={`p-2 rounded-lg transition-colors ${
-                  darkMode 
-                    ? 'bg-gray-800 hover:bg-blue-500 text-gray-300 hover:text-white' 
-                    : 'bg-white hover:bg-blue-500 text-gray-600 hover:text-white'
-                } border ${darkMode ? 'border-gray-700' : 'border-gray-200'}`}
-              >
-                <MessageCircle className="w-5 h-5" />
-              </a>
+             
+
             </div>
           </div>
 

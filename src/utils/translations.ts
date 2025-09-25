@@ -30,7 +30,7 @@ export const translations = {
     send: 'Yuborish',
     contactInfo: 'Aloqa ma\'lumotlari',
     address: 'Manzil: Jizzax viloyati Zarbdor tumani',
-    phone: 'Telefon: +998 ',
+    phone: 'Telefon: +998976445885 ',
     
     // Footer
     footerDescription: 'Yuqori sifatli kiyim-kechaklar va mukammal xizmat.',
@@ -72,7 +72,7 @@ export const translations = {
     send: 'Send',
     contactInfo: 'Contact Information',
     address: 'Address: Jizzax viloyati Zarbdor tumani',
-    phone: 'Phone: +998 ',
+    phone: 'Phone: +998976445885',
     
     // Footer
     footerDescription: 'High-quality clothing and exceptional service.',
